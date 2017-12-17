@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>  
+  <menu name="Pypeline">  
+      <node type="subMenu" name="Commons">  
+        <node type="command" name="ConnectInOutMesh" comment="Connect outMesh to inMesh polygon attribute" cmd="md_InOutMesh" mode="mel"></node>  
+        <node type="command" name="Get InOutMesh Master" comment="md_getInOutMeshMaster" cmd="md_getInOutMeshMaster" mode="mel"></node>  
+        <node type="command" name="ConnectInOutMesh" comment="Connect outMesh to inMesh polygon attribute" cmd="md_InOutMesh" mode="mel"></node>  
+    </node>  
+    <node type="subMenu" name="ReTest">  
+        <node type="command" name="Test Print" comment="print text" cmd="import menu;menu.test()" mode="python"></node>  
+        <node type="separator"></node>  
+        <node type="command" name="TestB" comment="create polysphere" cmd="polySphere -ch on -o on -r 4.282628" mode="mel"></node>        </node>  
+    <node type="subMenu" name="ReTestA">  
+        <node type="command" name="TestC" comment="create polysphere" cmd="polySphere -ch on -o on -r 4.282628" mode="mel"></node>  
+        <node type="separator"></node>                <node type="command" name="TestD" comment="create polysphere" cmd="polySphere -ch on -o on -r 4.282628" mode="mel"></node>        </node>  
+</menu>  
